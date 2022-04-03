@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		09DABD7127F8AB0E009160EB /* MoneyTacticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABD7027F8AB0E009160EB /* MoneyTacticsApp.swift */; };
-		09DABD7327F8AB0E009160EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABD7227F8AB0E009160EB /* ContentView.swift */; };
 		09DABD7527F8AB10009160EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DABD7427F8AB10009160EB /* Assets.xcassets */; };
 		09DABD7827F8AB10009160EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DABD7727F8AB10009160EB /* Preview Assets.xcassets */; };
 		09DABD7A27F8AB10009160EB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABD7927F8AB10009160EB /* Persistence.swift */; };
@@ -16,6 +15,12 @@
 		09DABD8727F8AB10009160EB /* MoneyTacticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABD8627F8AB10009160EB /* MoneyTacticsTests.swift */; };
 		09DABD9127F8AB10009160EB /* MoneyTacticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABD9027F8AB10009160EB /* MoneyTacticsUITests.swift */; };
 		09DABD9327F8AB10009160EB /* MoneyTacticsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABD9227F8AB10009160EB /* MoneyTacticsUITestsLaunchTests.swift */; };
+		09DABDA127F8B3F3009160EB /* BillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABDA027F8B3F3009160EB /* BillView.swift */; };
+		09DABDA327F90BD4009160EB /* BillCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABDA227F90BD4009160EB /* BillCellView.swift */; };
+		09DABDA527F90F2F009160EB /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABDA427F90F2F009160EB /* DateExtension.swift */; };
+		09DABDA727F9114B009160EB /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABDA627F9114B009160EB /* DoubleExtension.swift */; };
+		09DABDA927F9E216009160EB /* AddBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABDA827F9E216009160EB /* AddBillView.swift */; };
+		09DABDAD27F9E604009160EB /* AddBillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABDAC27F9E604009160EB /* AddBillViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 /* Begin PBXFileReference section */
 		09DABD6D27F8AB0E009160EB /* MoneyTactics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTactics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DABD7027F8AB0E009160EB /* MoneyTacticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTacticsApp.swift; sourceTree = "<group>"; };
-		09DABD7227F8AB0E009160EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09DABD7427F8AB10009160EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09DABD7727F8AB10009160EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09DABD7927F8AB10009160EB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +52,12 @@
 		09DABD8C27F8AB10009160EB /* MoneyTacticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTacticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DABD9027F8AB10009160EB /* MoneyTacticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTacticsUITests.swift; sourceTree = "<group>"; };
 		09DABD9227F8AB10009160EB /* MoneyTacticsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTacticsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09DABDA027F8B3F3009160EB /* BillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillView.swift; sourceTree = "<group>"; };
+		09DABDA227F90BD4009160EB /* BillCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCellView.swift; sourceTree = "<group>"; };
+		09DABDA427F90F2F009160EB /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		09DABDA627F9114B009160EB /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		09DABDA827F9E216009160EB /* AddBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillView.swift; sourceTree = "<group>"; };
+		09DABDAC27F9E604009160EB /* AddBillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +108,13 @@
 		09DABD6F27F8AB0E009160EB /* MoneyTactics */ = {
 			isa = PBXGroup;
 			children = (
-				09DABD7027F8AB0E009160EB /* MoneyTacticsApp.swift */,
-				09DABD7227F8AB0E009160EB /* ContentView.swift */,
+				09DABDAB27F9E5CE009160EB /* Model */,
+				09DABD9F27F8B30D009160EB /* Views */,
+				09DABDAA27F9E5BA009160EB /* ViewModel */,
 				09DABD7427F8AB10009160EB /* Assets.xcassets */,
-				09DABD7927F8AB10009160EB /* Persistence.swift */,
-				09DABD7B27F8AB10009160EB /* MoneyTactics.xcdatamodeld */,
 				09DABD7627F8AB10009160EB /* Preview Content */,
+				09DABDA427F90F2F009160EB /* DateExtension.swift */,
+				09DABDA627F9114B009160EB /* DoubleExtension.swift */,
 			);
 			path = MoneyTactics;
 			sourceTree = "<group>";
@@ -131,6 +142,34 @@
 				09DABD9227F8AB10009160EB /* MoneyTacticsUITestsLaunchTests.swift */,
 			);
 			path = MoneyTacticsUITests;
+			sourceTree = "<group>";
+		};
+		09DABD9F27F8B30D009160EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09DABDA027F8B3F3009160EB /* BillView.swift */,
+				09DABDA227F90BD4009160EB /* BillCellView.swift */,
+				09DABDA827F9E216009160EB /* AddBillView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09DABDAA27F9E5BA009160EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09DABDAC27F9E604009160EB /* AddBillViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09DABDAB27F9E5CE009160EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09DABD7927F8AB10009160EB /* Persistence.swift */,
+				09DABD7027F8AB0E009160EB /* MoneyTacticsApp.swift */,
+				09DABD7B27F8AB10009160EB /* MoneyTactics.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DABDA327F90BD4009160EB /* BillCellView.swift in Sources */,
+				09DABDA527F90F2F009160EB /* DateExtension.swift in Sources */,
+				09DABDA127F8B3F3009160EB /* BillView.swift in Sources */,
+				09DABDA927F9E216009160EB /* AddBillView.swift in Sources */,
 				09DABD7D27F8AB10009160EB /* MoneyTactics.xcdatamodeld in Sources */,
 				09DABD7A27F8AB10009160EB /* Persistence.swift in Sources */,
-				09DABD7327F8AB0E009160EB /* ContentView.swift in Sources */,
+				09DABDA727F9114B009160EB /* DoubleExtension.swift in Sources */,
 				09DABD7127F8AB0E009160EB /* MoneyTacticsApp.swift in Sources */,
+				09DABDAD27F9E604009160EB /* AddBillViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
